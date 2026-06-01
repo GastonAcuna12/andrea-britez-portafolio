@@ -1,0 +1,10 @@
+{
+  "name": "andrea-britez-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page profesional para la Dra. Andrea Brítez.",
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "start": "node scripts/dev-server.js"
+  }
+}
