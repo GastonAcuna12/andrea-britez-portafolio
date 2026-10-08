@@ -1,45 +1,41 @@
-# Andrea Brítez · Web editorial
+# Andrea Brítez
 
-![Vista de la web](docs/preview.jpg)
+![Website preview](docs/preview.jpg)
 
-[Ver sitio ↗](https://dra-andrea-britez.vercel.app/)
+[Live site](https://dra-andrea-britez.vercel.app/)
 
-Web profesional para la Dra. Andrea Brítez. Una landing de estética editorial con tipografía serif, una paleta cálida y una composición que prioriza la trayectoria, los servicios y la lectura.
+A website for clinical psychologist Dr. Andrea Brítez. Built with HTML, CSS and JavaScript, using Cormorant Garamond and Jost, warm colors and a portrait-led layout.
 
-## Diseño e interacción
+## What's here
 
-- Sistema visual en tonos cacao y crema, con Cormorant Garamond y Jost.
-- Secciones de presentación, trayectoria, especialidades, atención y contacto.
-- Navegación responsive y animaciones de entrada sutiles.
-- Formulario con validación nativa que prepara una consulta para WhatsApp; el sitio no almacena mensajes.
-- Metadatos Open Graph para compartir enlaces y estructura semántica de contenidos.
+- Background, specialties, appointments and contact sections.
+- Responsive navigation and subtle entrance animations.
+- A contact form with native validation that prepares a WhatsApp message. It does not store messages.
+- Open Graph metadata and semantic HTML.
 
-## Desarrollo local
+## Run locally
 
-No requiere instalar dependencias de frontend. Necesita Node.js para el servidor de desarrollo:
+The development server needs Node.js. No frontend dependencies are required.
 
 ```bash
 npm run dev
 ```
 
-El servidor muestra la dirección local; normalmente usa `http://127.0.0.1:4173`.
+Open the address printed by the server, usually `http://127.0.0.1:4173`.
 
-## Estructura
+## Files
 
 ```text
-index.html             Contenido y estructura
-css/styles.css         Componentes y responsive
-css/visual-system.css  Colores, tipografía y variables
-js/main.js             Interacciones y enlaces
-scripts/dev-server.js  Servidor local
-visual/                Guías del sistema visual
-docs/preview.jpg       Captura local del proyecto
+index.html             Content and structure
+css/styles.css         Components and responsive styles
+css/visual-system.css  Colors, typography and variables
+js/main.js             Interactions and contact links
+scripts/dev-server.js  Local development server
+visual/                Design notes
 ```
 
-## Editar y publicar
+Edit copy in `index.html`. Contact links and the portrait URL are configured in `js/main.js`.
 
-Los textos están en `index.html`. Los enlaces de contacto y la imagen de portada se configuran en `js/main.js`. Las guías de diseño están en `visual/`.
+To deploy, serve `index.html`, `css/` and `js/` from a static host, keeping their relative paths. No build step is needed.
 
-Para publicar, un hosting estático debe servir `index.html`, `css/` y `js/`, conservando sus rutas relativas. El proyecto no necesita compilación.
-
-La captura corresponde al proyecto ejecutado localmente. La demo pública permite explorar el diseño y sus interacciones.
+The preview above is a screenshot of the site running locally.
