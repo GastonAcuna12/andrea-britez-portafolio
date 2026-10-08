@@ -2,6 +2,8 @@
 
 ![Vista de la web](docs/preview.jpg)
 
+[Ver sitio ↗](https://dra-andrea-britez.vercel.app/)
+
 Web profesional para la Dra. Andrea Brítez. Una landing de estética editorial con tipografía serif, una paleta cálida y una composición que prioriza la trayectoria, los servicios y la lectura.
 
 ## Diseño e interacción
@@ -40,4 +42,4 @@ Los textos están en `index.html`. Los enlaces de contacto y la imagen de portad
 
 Para publicar, un hosting estático debe servir `index.html`, `css/` y `js/`, conservando sus rutas relativas. El proyecto no necesita compilación.
 
-La captura corresponde al proyecto ejecutado localmente. La demo que figuraba en la configuración del repositorio dejó de estar disponible públicamente; este README presenta el código y la vista del diseño.
+La captura corresponde al proyecto ejecutado localmente. La demo pública permite explorar el diseño y sus interacciones.
